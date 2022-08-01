@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Prueba de validación de Documento PDF" skipped="0" tests="1" time="27.25" timestamp="2022-01-18 01:06:51"><testcase name="El usuario descarga un Domuento PDF"><failure message="&#10;Expected: an element that is visible&#10;     but: no matching element found by xpath: //*[@id=&quot;ctl00_PlaceHolderMain_MenuThirdLevel&quot;]/ul/li[3]/a" type="java.lang.AssertionError">
-Expected: an element that is visible
-     but: no matching element found by xpath: //*[@id="ctl00_PlaceHolderMain_MenuThirdLevel"]/ul/li[3]/a</failure><system-err>
-Expected: an element that is visible
-     but: no matching element found by xpath: //*[@id="ctl00_PlaceHolderMain_MenuThirdLevel"]/ul/li[3]/a&#13;
-com.pruebas.aeronauticacivil.task.Homepage.performAs(Homepage.java:19)&#13;
-com.pruebas.aeronauticacivil.stepdefinitions.DescargaDocumentoStepDefinitions.el_usuario_ingresa_a_la_ruta_Estados_Financieros_Balance(DescargaDocumentoStepDefinitions.java:21)&#13;
-cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
-</system-err></testcase></testsuite>
