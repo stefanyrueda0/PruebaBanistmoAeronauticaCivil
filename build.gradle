@@ -9,12 +9,12 @@ buildscript {
     }
 
     ext{
-        serenityVersion='2.1.10'
-        serenityCucumberVersion='1.9.45'
+        serenityVersion='3.2.5'
+        serenityCucumberVersion='3.2.5'
     }
 
     dependencies {
-        classpath("net.serenity-bdd:serenity-gradle-plugin:2.1.5")
+        classpath("net.serenity-bdd:serenity-gradle-plugin:2.4.34")
     }
 
 }
@@ -28,8 +28,8 @@ compileTestJava.options.encoding="UTF-8"
 
 dependencies {
     implementation "net.serenity-bdd:serenity-ensure:$rootProject.ext.serenityVersion"
-    implementation 'net.serenity-bdd:serenity-cucumber:1.9.45'
-    implementation 'net.serenity-bdd:serenity-screenplay:$rootProject.ext.serenityVersion'
+    implementation "net.serenity-bdd:serenity-cucumber:3.2.5"
+    implementation "net.serenity-bdd:serenity-screenplay:$rootProject.ext.serenityVersion"
 
 }
 

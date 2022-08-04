@@ -8,7 +8,7 @@ import net.serenitybdd.screenplay.actions.Open;
 import static com.pruebas.aeronauticacivil.ui.Navegation.ATENCION_AL_CIUDADANO;
 import static net.serenitybdd.screenplay.Tasks.instrumented;
 
-public class AtencionAlCiudadano implements Task {
+public class VaAAtencionAlCiudadano implements Task {
 
 
     @Override
@@ -23,7 +23,7 @@ public class AtencionAlCiudadano implements Task {
 
     }
 
-    public static AtencionAlCiudadano a(){
-        return instrumented(AtencionAlCiudadano.class,"");
+    public static VaAAtencionAlCiudadano a(){
+        return instrumented(VaAAtencionAlCiudadano.class,"");
     }
 }
